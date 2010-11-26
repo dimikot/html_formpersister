@@ -2,7 +2,6 @@
 HTML_FormPersister: bad type="xxx"
 --FILE--
 <?php
-phpinfo(); exit;
 require dirname(__FILE__) . '/init.php';
 ob_start();
 $_POST['a'] = "b"
